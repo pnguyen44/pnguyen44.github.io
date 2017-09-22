@@ -8,6 +8,11 @@ p {
   line-height: 1.75;
 }
 
+section#about {
+  background-color: gray;
+  color: green;
+}
+
 a {
   color: $theme-primary;
   &.active,
