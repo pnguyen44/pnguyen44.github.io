@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Agency v4.0.0-beta (http://startbootstrap.com/template-overviews/agency)
+ * Start Bootstrap - Agency v4.0.0-beta (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
@@ -115,7 +115,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/boston.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
