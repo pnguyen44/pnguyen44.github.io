@@ -50,6 +50,11 @@ section {
   background: #fed136;
   text-shadow: none; }
 
+/*resize thumbnail */
+  img {
+    max-width: 100% !important;
+  }
+/*------*/
 img::selection {
   background: transparent; }
 
