@@ -7,14 +7,9 @@
  @import '~bootstrap-sass/assets/stylesheets/bootstrap';*/
 
 .gmail-icon{
-  height: 50px;
-}
-.img-icon {
   height: 60px;
 }
-.devicon-amazonwebservices-original{
-  color: blue;
-}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -125,9 +120,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  /*background-image: url("../img/boston.jpg");*/
-  background-image: url("../img/pn4.jpg");
-  width: 100%;
+  background-image: url("../img/boston.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
