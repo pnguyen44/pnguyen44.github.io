@@ -127,7 +127,7 @@ header.masthead {
   color: white;
   /*background-image: url("../img/boston.jpg");*/
   background-image: url("../img/pn3.jpeg");
-  color: darkblue;
+  color: rgb(23, 162, 184);
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
