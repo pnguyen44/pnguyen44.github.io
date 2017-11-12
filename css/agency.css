@@ -12,6 +12,9 @@
 .img-icon {
   height: 60px;
 }
+.img-icon-service {
+  /*height: 200px;*/
+}
 .devicon-amazonwebservices-original{
   color: blue;
 }

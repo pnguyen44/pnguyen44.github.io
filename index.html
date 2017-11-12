@@ -87,7 +87,7 @@
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-                        <img class="img-icon" src="img/wire-frame-icon.png" alt=""  height="140px">
+                        <img class="img-icon-service" src="img/wire-frame-icon.png" alt=""  height="140px">
               <!-- <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-laptop fa-stack-1x fa-inverse"></i> -->
             </span>
@@ -97,7 +97,7 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
               <!-- <i class="fa fa-circle fa-stack-2x text-primary"></i> -->
-              <img class="img-icon" src="img/computer.png" alt=""  height="140px">
+              <img class="img-icon-service" src="img/computer.png" alt=""  height="140px">
               <!-- <i class="fa fa-laptop fa-stack-1x fa-inverse"></i> -->
             </span>
           <h4 class="service-heading">Web Development</h4>
@@ -106,7 +106,7 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
               <!-- <i class="fa fa-circle fa-stack-2x text-primary"></i> -->
-                <img class="img-icon" src="img/design-icon.png" alt=""  height="140px">
+                <img class="img-icon-service" src="img/design-icon.png" alt=""  height="140px">
               <!-- <i class="fa fa-laptop fa-stack-1x fa-inverse"></i> -->
             </span>
           <h4 class="service-heading">Digital Design</h4>
@@ -287,6 +287,20 @@
             <!-- <p class="text-muted">Graphic Design</p> -->
           </div>
         </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/inventory-manager.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Inventory Manager</h4>
+            <!-- <p class="text-muted">Graphic Design</p> -->
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -457,6 +471,50 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Inventory Manager</h2>
+                <p class="item-intro text-muted">The Inventory Manager app was created using HTML, Ruby on Rails, CSS/SASS, Ember, JavaScript, Handlebars and Bootstrap. This app allows users to create an inventory of items, track if the items are running low, put them in order list, and add them back to inventory list.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/inventory-manager.png" alt="">
+                <div>
+                  <a href="https://github.com/pnguyen44/inventory-manager" target="_blank"><i class="">GitHub Repo</i></a>
+                </div>
+                <div>
+                  <a href="https://pnguyen44.github.io/inventory-manager/" target="_blank">View App</a>
+                </div>
+                <br>
+
+                <!-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                  repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul> -->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
