@@ -454,10 +454,12 @@ header.masthead {
 
 section#contact {
   background-color: #222222;
+  height: 60px;
   /*background-image: url("../img/map-image.png");*/
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
+    margin-top: -48px;
     color: white; }
   section#contact .form-group {
     margin-bottom: 25px; }
@@ -498,7 +500,8 @@ section#contact {
 
 footer {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center;
+}
   footer span.copyright {
     font-size: 90%;
     line-height: 40px;
