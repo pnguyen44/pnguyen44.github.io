@@ -97,7 +97,7 @@ body {
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
@@ -105,7 +105,7 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: #fed334; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -135,9 +135,9 @@ header.masthead {
   text-align: center;
   color: white;
   /*background-image: url("../img/boston.jpg");*/
-  background-image: url("../img/home-office.jpg");
+  background-image: url("../img/laptop.jpg");
   /*color: black;*/
-  color: rgb(17, 52, 109);
+  color: #fed235;
   /*color: rgb(23, 162, 184);*/
   width: 100%;
   background-repeat: no-repeat;
