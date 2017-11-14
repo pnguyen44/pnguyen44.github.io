@@ -6,7 +6,13 @@
  /*$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
  @import '~bootstrap-sass/assets/stylesheets/bootstrap';*/
 
-
+ html, body {
+     /*height: 100%;*/
+     width: 100%;
+ }
+ html {
+     overflow: auto;
+ }
 
 .gmail-icon{
   height: 50px;
@@ -178,6 +184,12 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
+
+@media (max-width: 575px) {
+    header.masthead .intro-text .intro-heading {
+   font-size: 37px;
+ }
+ }
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
