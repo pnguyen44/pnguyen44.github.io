@@ -27,6 +27,10 @@
 .devicon-amazonwebservices-original{
   color: blue;
 }
+footer {
+  background-color: black;
+  color: white;
+}
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
