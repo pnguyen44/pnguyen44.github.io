@@ -11,6 +11,9 @@
 .gmail-icon{
   height: 50px;
 }
+.list-inline-item {
+  margin: 0 10px;
+}
 .img-icon {
   height: 60px;
 }
