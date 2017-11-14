@@ -6,6 +6,8 @@
  /*$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
  @import '~bootstrap-sass/assets/stylesheets/bootstrap';*/
 
+
+
 .gmail-icon{
   height: 50px;
 }
@@ -37,6 +39,10 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
+
+#about {
+  background-color: #26bed6 !important;
+}
 
 section {
   padding: 100px 0; }
@@ -129,7 +135,7 @@ header.masthead {
   text-align: center;
   color: white;
   /*background-image: url("../img/boston.jpg");*/
-  background-image: url("../img/pn3.jpeg");
+  background-image: url("../img/home-office.jpg");
   /*color: black;*/
   color: rgb(17, 52, 109);
   /*color: rgb(23, 162, 184);*/
@@ -184,6 +190,9 @@ header.masthead {
     margin-top: -89px;
   }
 
+  .bg-light {
+    background-color: #26bed6 !important;
+  }
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
@@ -239,6 +248,7 @@ header.masthead {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
+
 
 .portfolio-modal .modal-dialog {
   max-width: none;
