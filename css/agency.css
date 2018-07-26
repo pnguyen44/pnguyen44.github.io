@@ -65,7 +65,7 @@ h6 {
 }
 
 section {
-  padding: 100px 20px; }
+  padding: 116px 20px; }
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -81,7 +81,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 116px 0; } }
 
 ::-moz-selection {
   background: #fed136;
@@ -223,7 +223,7 @@ header.masthead {
   text-transform: none; }
 
   #portfolio .section-heading {
-    margin-top: -89px;
+    /* margin-top: 0px; */
   }
 
   .bg-light {
