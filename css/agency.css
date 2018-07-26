@@ -81,7 +81,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 116px 0; } }
+    padding: 130px 0; } }
 
 ::-moz-selection {
   background: #fed136;
@@ -223,7 +223,7 @@ header.masthead {
   text-transform: none; }
 
   #portfolio .section-heading {
-    /* margin-top: 0px; */
+    margin-bottom: 53px;
   }
 
   .bg-light {
