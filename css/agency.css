@@ -40,6 +40,11 @@ footer {
   background-color: black;
   color: white;
 }
+
+#personal-project {
+ margin-top: 50px;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
