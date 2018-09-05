@@ -41,8 +41,12 @@ footer {
   color: white;
 }
 
-#personal-project {
+#independent-projects {
  margin-top: 50px;
+}
+
+#independent-projects .section-heading{
+  font-size: 34px;
 }
 
 body {
