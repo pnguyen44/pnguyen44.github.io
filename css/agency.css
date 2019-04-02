@@ -41,6 +41,10 @@ footer {
   color: white;
 }
 
+.float-right {
+  float: right;
+}
+
 #independent-projects {
  margin-top: 50px;
 }
